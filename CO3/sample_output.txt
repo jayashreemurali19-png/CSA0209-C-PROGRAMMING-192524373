@@ -1,0 +1,9 @@
+Grama Jyothi Electricity Billing
+Enter previous meter reading (0-65535): Enter current meter reading (0-65535): 
+--- Electricity Bill ---
+Previous reading : 120
+Current reading  : 250
+Units consumed   : 130
+Fixed charge     : Rs 5.00
+Energy charge    : Rs 67.50
+Total bill       : Rs 72.50

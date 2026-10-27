@@ -1,0 +1,13 @@
+Grama Jyothi Electricity Billing
+Enter previous meter reading (0-65535): Enter current meter reading (0-65535): 
+--- Electricity Bill ---
+Previous reading : 65535
+Current reading  : 0
+Units consumed   : 1
+Fixed charge     : Rs 5.00
+Energy charge    : Rs 0.00
+Total bill       : Rs 5.00
+
+STDERR (DEBUG):
+[DEBUG] previous=65535, current=0, units=1
+[DEBUG] second-slab units=0, third-slab units=0, energy charge=0 paise

@@ -1,0 +1,4 @@
+Grama Jyothi Electricity Billing
+Enter previous meter reading (0-65535): 
+STDERR:
+Invalid input: enter a whole number from 0 to 65535.

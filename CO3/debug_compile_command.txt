@@ -1,0 +1,1 @@
+gcc -std=c11 -Wall -Wextra -DDEBUG /mnt/data/CSA02-192524230-Assignment1/Task01/main.c -o /mnt/data/CSA02-192524230-Assignment1/Task01/billing_debug
