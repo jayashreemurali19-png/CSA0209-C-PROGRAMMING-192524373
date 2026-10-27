@@ -1,0 +1,4 @@
+Bills added: 4000
+Expected total: Rs 400.00
+float total: Rs 400.0151978
+Integer paise total: Rs 400.00
