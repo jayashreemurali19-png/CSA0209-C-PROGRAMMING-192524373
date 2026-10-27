@@ -1,0 +1,3 @@
+Rs 12 -> 1200 paise
+square(a + 1) = 25
+max(a, b) = 7
