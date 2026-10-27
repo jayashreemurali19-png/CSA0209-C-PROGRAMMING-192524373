@@ -1,0 +1,10 @@
+Compiler-visible type measurements
+sizeof(int)=4, sizeof(long)=8, sizeof(long long)=8, sizeof(double)=8, sizeof(float)=4
+INT_MIN=-2147483648 INT_MAX=2147483647
+LONG_MIN=-9223372036854775808 LONG_MAX=9223372036854775807
+LLONG_MIN=-9223372036854775808 LLONG_MAX=9223372036854775807
+FLT_DIG=6 DBL_DIG=15 LDBL_DIG=18
+bills=4000 exact_paise=65000000 exact_rupees=650000.00 float_rupees=650000.00 double_rupees=650000.00
+bills=60000 exact_paise=975000000 exact_rupees=9750000.00 float_rupees=9750000.00 double_rupees=9750000.00
+bills=800000 exact_paise=13000000000 exact_rupees=130000000.00 float_rupees=130000000.00 double_rupees=130000000.00
+district int test: 800000 * 16250 paise exceeds 32-bit signed int range.

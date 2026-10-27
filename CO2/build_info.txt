@@ -1,0 +1,16 @@
+Build environment compiler: gcc (Debian 14.2.0-19) 14.2.0
+
+{
+  "Task01/billing.c": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "Task02/measure_types.c": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "Task04/smart_meter.c": {
+    "returncode": 0,
+    "stderr": ""
+  }
+}

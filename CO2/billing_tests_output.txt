@@ -1,0 +1,24 @@
+PASS input='0 50' exit=0
+PASS input='0 150' exit=0
+FAIL input='0 250' exit=0
+Grama Jyothi Billing System
+Assumption: fixed charge Rs 50.00; first 100 units free; 101-200 at Rs 2.25; above 200 at Rs 4.50.
+Enter previous and current 16-bit meter readings separated by space: Bill: previous=0, current=250, units=250, bill=Rs 500.00
+
+PASS input='0 100' exit=0
+PASS input='0 200' exit=0
+PASS input='123 123' exit=0
+PASS input='65535 0' exit=0
+PASS input='abc 10' exit=1
+PASS input='-1 10' exit=1
+PASS input='500 400' exit=1
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

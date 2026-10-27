@@ -1,0 +1,3 @@
+Grama Jyothi Billing System
+Assumption: fixed charge Rs 50.00; first 100 units free; 101-200 at Rs 2.25; above 200 at Rs 4.50.
+Enter previous and current 16-bit meter readings separated by space: Bill: previous=0, current=150, units=150, bill=Rs 162.50

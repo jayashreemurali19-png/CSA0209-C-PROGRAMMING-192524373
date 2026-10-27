@@ -1,0 +1,6 @@
+Smart-meter billing (energy readings in Wh)
+Enter off-peak Wh and peak Wh: Off-peak energy: 1000 Wh
+Peak energy: 1000 Wh
+Off-peak rate: 450 paise/kWh
+Peak rate: 20% surcharge
+Total bill: Rs 9.90
