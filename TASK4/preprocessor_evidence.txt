@@ -1,6 +1,0 @@
-Command: gcc -E Task04/macro_demo.c -o Task04/macro_expanded.i
-
-Selected expanded lines:
-    printf("Rs 12 -> %lld paise\n", ((long long)(12) * 100LL));
-    printf("SQUARE(a + 1) = %d\n", ((a + 1) * (a + 1)));
-    printf("MAX_VALUE(a, b) = %d\n", (((a) > (b)) ? (a) : (b)));

@@ -1,5 +1,0 @@
-Rs 12 -> 1200 paise
-SQUARE(a + 1) = 25
-MAX_VALUE(a, b) = 7
-i before unsafe example = 3; MAX_VALUE(i++, j) is unsafe
-i after print remains = 3
